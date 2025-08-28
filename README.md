@@ -19,7 +19,7 @@ sudo apt install pass #(Or whatever your packet manager is)
 gpg --full-generate-key
 ...
 pass init
-`
+```
 
 After this you are ready to go, but you don't have any secrets to use, so you must import them like:
 ```
@@ -28,6 +28,7 @@ c2fa --import /your/export.csv --issuer (AEGIS | GOOGLE) --gpg-id example@domain
 
 > ![note]
 > Every secret is stored as an individual file with it's name as identifier.
+> Also, all of this will be erased since i've did the readme then everything changed, i am fast-prototyped minded (sadly)
 
 ## 3. To-do
 ### 3.1 Security (Priority 1)
