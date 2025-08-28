@@ -37,7 +37,7 @@ c2fa --import /your/export.csv --issuer (AEGIS | GOOGLE) --gpg-id example@domain
 ```
 
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Every secret is stored as an individual file with it's name as identifier. Also, all of this will be erased since i've did the readme then everything changed, i am fast-prototyped minded (sadly).
 
 
