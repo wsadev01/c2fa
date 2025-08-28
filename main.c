@@ -299,7 +299,7 @@ int main(int argc, char *argv[]) {
 	    fprintf(stderr, "Error setting context: %s\n", gpgme_strerror(err));
 	    exit(1);
 	}
-	err = gpgme_get_key(ctx, "albus27@texto-plano.xyz", &key, 0);
+	err = gpgme_get_key(ctx, "foobar@test.com", &key, 0);
 	if (err) {
 	    fprintf(stderr, "Key not found: %s\n", gpgme_strerror(err));
 	    exit(1);
