@@ -36,8 +36,10 @@ After this you are ready to go, but you don't have any secrets to use, so you mu
 c2fa --import /your/export.csv --issuer (AEGIS | GOOGLE) --gpg-id example@domain.com
 ```
 
-> ![WARNING]
-> Every secret is stored as an individual file with it's name as identifier. Also, all of this will be erased since i've did the readme then everything changed, i am fast-prototyped minded (sadly)
+
+> ![IMPORTANT]
+> Every secret is stored as an individual file with it's name as identifier. Also, all of this will be erased since i've did the readme then everything changed, i am fast-prototyped minded (sadly).
+
 
 ## 3. To-do
 ### 3.1 Security (Priority 1)
